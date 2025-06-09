@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #001F3F, #0074D9); /* Mumbai Indians Blue Theme */
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 850px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  color: #F9AA33; /* Golden/Orange tone */
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #FFA500;
+}
+
+.image-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.image-section img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
+  border: 5px solid #ffffff;
+}
+
+.content h2 {
+  margin-bottom: 10px;
+  color: #F9AA33;
+}
+
+.content p {
+  margin-bottom: 15px;
+  font-size: 1.05rem;
+  text-align: justify;
+}
+
+.Link{
+    color: #F9AA33;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-style: italic;
+  color: #ffffff;
+}
