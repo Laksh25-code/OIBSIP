@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Auth System</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container" id="authBox">
+        <h2 id="formTitle">Login</h2>
+        <input type="text" id="username" placeholder="Username" />
+        <input type="password" id="password" placeholder="Password" />
+        <button onclick="handleAuth()">Submit</button>
+        <div class="switch" onclick="toggleForm()">
+            Don’t have an account? Register
+        </div>
+    </div>
+
+    <div id="securePage">
+        <h2>Welcome 🎉</h2>
+        <p>You have successfully logged in!</p>
+        <button onclick="logout()">Logout</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+<footer>
+    <p class="foot">Design By Laksh Patil</p>
+</footer>
+</html>
